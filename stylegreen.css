@@ -1,0 +1,39 @@
+.navbar{
+  background-color: grey;
+}
+.container{ 
+}
+.jumbotron{
+}
+#topOfPage{
+   margin-bottom: 2em;  
+}
+#clickfornew{
+  margin-bottom: 1em;
+}
+
+.btn{
+  color: white;
+  font-size: 140%;
+  background-color: #337ab7;
+  height: 5em;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left;
+}
+  .panel{
+  color: white;
+  font-size: 140%;
+  background-color: #337ab7;
+  height: 5em;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left;
+} 
+  .panel-default{ 
+}
+#picturelink{
+  color: black;
+}
+
+

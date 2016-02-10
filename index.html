@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<link rel= "stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylegreen.css">
+<title>Learn the Greenlandic names of different Qayaq-rolls</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-muted" href="#">Learn greenlandic rolling-names</a>
+    </div>
+  </div>
+  <!-- End Navbar -->
+
+  <!-- Main content -->
+  <div class="container">
+
+    <!-- container for øverste halvdel -->
+    <div class="jumbotron" id="questions">
+      <div class="container">
+        <h1>Learn the Greenlandic names of different Qayaq-rolls
+         </h1>
+
+        <!-- Introtekst og Pirbad-bilde -->
+        <div class="row" id="topOfPage">
+          <div class="col-md-6">
+            <h2>The names of 35 rolls will show up randomly when you click the button.</h2>
+          </div>
+          <div class="col-md-6 hidden-sm hidden-xs">
+            <img src="http://res.cloudinary.com/pialisecloud/image/upload/v1443955503/upsidedown_lymgvy.jpg" class="img-responsive" alt="Pirbadet in Trondheim">
+          </div>
+        </div>
+      </div>
+
+      <!-- container for nederste halvdel -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-body" id="english"></div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <button type="button" id="clickfornew" class="btn btn-primary btn-block btn-lg" onclick="showNewRoll()">
+            Start by clicking me!
+          </button>
+        </div>
+
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-body" id="greenlandish"> </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <button type="button" id="clickforanswer" class="btn btn-primary btn-block btn-lg" onclick="answerFunction()">
+            Get translation
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Se alle ruller -->
+
+    <div class="jumbotron" id="alle_ruller">
+      <div class="container">
+        <div class=row>
+          <div class="col-md-6">
+
+            <p>
+              Greenlandish is difficult, I know! You can access a full list of all the English and Greenlandic names of the 35 rolls included in the Greenlandic Championship at the bottom of this page.
+            </p>
+
+
+          </div>
+
+          <div class="col-md-6">
+            <img src="http://i.ytimg.com/vi/Kc9rrWNhfSs/maxresdefault.jpg" class="img-responsive" alt="NM i grønlandsrulle 2015">
+            <a href="https://www.youtube.com/watch?v=Kc9rrWNhfSs" id="picturelink">Link to my performance at the Norwegian Championship 2015 on YouTube, showing these rolls: Side scull, Chest scull, Standard Greenland roll, Paddle in crook of arm, Storm roll, Reverse sweep roll, Spine roll, Standard roll with paddle held behind head, Armpit roll, Norsaq roll front to back, Hand roll front to back, Hand roll with clenched fist front to back and Paddling upside down.</a>
+
+
+          </div>
+        </div>
+        <h3>Greenlandic rolls, English names</h3>
+
+        <ul>
+          <li>Side Scull</li>
+          <li>Chest Scull</li>
+          <li>Standard Greenland Roll</li>
+          <li>Paddle in Crook of Arm</li>
+          <li>Storm Roll</li>
+          <li>Reverse sweep Roll (stern to bow)</li>
+          <li>Spine Roll (paddle projecting over head)</li>
+          <li>Paddle held behind back</li>
+          <li>Standard Roll with Paddle held behind head</li>
+          <li>Reverse Roll with Paddle held behind head</li>
+          <li>Armpit Roll</li>
+          <li>Vertical Sculling Roll</li>
+          <li>Sculling Roll with paddle held horizontal on foredeck</li>
+          <li>Sculling Roll with paddle held horizontal above (backrest)</li>
+          <li>Roll with arms crossed</li>
+          <li>Sculling with paddle held under kayak</li>
+          <li>Successive Storm rolls performed in 10 seconds</li>
+          <li>Successive Standard rolls performed in 10 seconds</li>
+          <li>Roll with hunting float</li>
+          <li>Throwing stick, start tucked forward, finish tucked forward</li>
+          <li>Throwing stick, start leaning aft, sweep from stern to bow</li>
+          <li>Throwing stick, start tucked forward, finish leaning aft</li>
+          <li>Hand roll, start tucked forward, finish tucked forward</li>
+          <li>Hand roll, start leaning aft, sweep from stern to bow</li>
+          <li>Hand roll, start tucked forward, finish leaning aft</li>
+          <li>Hand roll with a clenched fist, start tucked forward, finish tucked forward</li>
+          <li>Hand roll with a clenched fist, start leaning aft, sweep from stern to bow</li>
+          <li>Hand roll with a clenched fist, start tucked forward, finish leaning aft</li>
+          <li>Hand roll holding eight kilogram brick, start tucked forward, finish tucked forward</li>
+          <li>Hand roll holding eight kilogram brick, start leaning aft, sweep from stern to bow</li>
+          <li>Hand roll holding Eight kilogram brick, start tucked forward, finish leaning aft</li>
+          <li>Elbow roll</li>
+          <li>Straight jacket, no hands-roll</li>
+          <li>Paddling upside down</li>
+          <li>Walrus Pull</li>
+        </ul>
+        <h3>Greenlandic rolls, Greenlandic names</h3>
+
+        <ul>
+          <li>Innaqatsineq</li>
+          <li>Palluussineq</li>
+          <li>Kinnguffik paarlallugu/nerfallaallugu</li>
+          <li>Pakassummillugu/unermillugu</li>
+          <li>Siukkut pallortillugu/masikkut</li>
+          <li>Kingumut naatillugu</li>
+          <li>Aariammillugu</li>
+          <li>Kingup apummaatigut</li>
+          <li>Siukkut tunusummillugu</li>
+          <li>Kingukkut tunusummillugu</li>
+          <li>Paatip kallua tuermillugu illuinnarmik</li>
+          <li>Qiperuussineq paatit ammorluinnaq, qajaq pusivillugu</li>
+          <li>Masikkut aalatsineq</li>
+          <li>Isserfikkut aalatsineq</li>
+          <li>Tallit paarlatsillugit paateqar|uni masikkut</li>
+          <li>Qaannap ataatigu ipilaarlugu</li>
+          <li>Pallortillugu assakaaneq</li>
+          <li>Nerfallarlugu assakaaneq</li>
+          <li>Avataq isserfiup taqqaanut qaannap sinarsuanut qilerullugu</li>
+          <li>Norsamik masikkut</li>
+          <li>Norsamik kingukkut</li>
+          <li>Norsamik nerfallaallugu</li>
+          <li>Assammik masikkut</li>
+          <li>Assammik kingukkut</li>
+          <li>Assammik nerfallaallugu</li>
+          <li>Assak peqillugu masikkut</li>
+          <li>Assak peqillugu kingukkut</li>
+          <li>Assak peqillugu nerfallaallugu</li>
+          <li>Ujaqqamik tigummisserluni masikkut</li>
+          <li>Ujaqqamik tigummisserluni kingukkut</li>
+          <li>Ujaqqamik tigumisserluni nerfallaallugu</li>
+          <li>Ikusaannarmik niaqoq/pukusuk patillugu</li>
+          <li>Tallit paarlatsillugit timaannarmik</li>
+          <li>Pusilluni paarneq</li>
+          <li>Nusutsinneq kinngunani iluarisamut</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <script src="javasgreen.js"></script>
+</body>
+</html>
